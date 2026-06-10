@@ -9,13 +9,13 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 FEEDS = [
     {
         "name": "TLDR Tech",
-        "url": "https://tldr.tech/tech/rss",
+        "url": "https://tldr.tech/api/rss/tech",
         "color": 0x00A8E8,
         "emoji": "💻",
     },
     {
         "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/rss",
+        "url": "https://tldr.tech/api/rss/ai",
         "color": 0x7C3AED,
         "emoji": "🤖",
     },
